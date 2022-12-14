@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(207, 195, 200);
+}
+.list{
+  text-align: left;
+  margin: 15px;
+}
+
+.acceuil{
+  margin: 15px;
+}
+
+.userCard {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+}
+
+.userCard > button {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: rgb(12, 138, 138);
+  border: none;
+  
+}
+.userCard  button h1{
+  font-size: 17px;
+  color: aliceblue;
+}
+
+.userCard > img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.UserContainer {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+
+.acceuil > h1 {
+  color:aliceblue;
+  background-color: rgb(12, 138, 138);
+  padding: 20px;
+  text-align: center;
+}
+
+
